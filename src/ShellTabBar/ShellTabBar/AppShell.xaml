@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="ShellTabBar.AppShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShellTabBar">
+    <TabBar>
+        <Tab Title="Tab 1" Route="tab1">
+            <local:MainPage TabName="tab1" />
+        </Tab>
+        <Tab Title="Tab 2" Route="tab2">
+            <local:MainPage TabName="tab2" />
+        </Tab>
+    </TabBar>
+</Shell>
